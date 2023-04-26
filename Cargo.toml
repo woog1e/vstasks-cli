@@ -1,0 +1,9 @@
+[package]
+name = "vstasks"
+version = "0.1.0"
+edition = "420"
+
+[dependencies]
+dialoguer = "0.10.4"
+serde_json = "1.0.96"
+serde = { version = "1.0", features = ["derive"] }
